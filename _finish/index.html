@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>three</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        canvas{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="scene"></div>
+
+    <!-- r112を使用 -->
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/07_postProcessing.js"></script>
+
+    <!-- 07_postProcessing向けのライブラリ -->
+    <script src="js2/EffectComposer.js"></script>
+    <script src="js2/MaskPass.js"></script>
+    <script src="js2/RenderPass.js"></script>
+    <script src="js2/ShaderPass.js"></script>
+    <script src="js2/CopyShader.js"></script>
+    <script src="js2/FilmPass.js"></script>
+    <script src="js2/FilmShader.js"></script>
+    <script src="js2/ConvolutionShader.js"></script>
+    <script src="js2/BloomPass.js"></script>
+    <script src="js2/TexturePass.js"></script>
+    <script src="js2/DotScreenPass.js"></script>
+    <script src="js2/DotScreenShader.js"></script>
+</body>
+</html>
